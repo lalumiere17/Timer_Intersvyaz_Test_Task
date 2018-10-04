@@ -4,28 +4,38 @@
         <meta charset="utf-8">
         <title>Обратный отсчет</title>
         <script src="timer.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     
     <body onload="Timer()">
-        <div class="main" align="center">
-        <h1>Обратный отсчет</h1>
-         
-        <table class="time" align="center">
-          <tr>
-            <th><span id="day"></span> :</th>
-            <th><span id="hour"></span> :</th> 
-            <th><span id="min"></span> :</th>
-            <th><span id="sec"></span> </th>
-          </tr>
-          <tr>
-            <td>Дней</td>
-            <td>Часов</td> 
-            <td>Минут</td>
-            <td>Секунд</td>
-          </tr>
-        </table>
-         
+      <div class="main">
+        <div class="header" align="center">
+        <h1>COUNTDOWN</h1>
         </div>
+         
+        <div class="timer" align="center">
+          <table class="time" align="center">
+            <tr>
+              <td><span id="day"></span></td>
+              <td>:</td>
+              <td><span id="hour"></span></td> 
+              <td>:</td>
+              <td><span id="min"></span></td>
+              <td>:</td>
+              <td><span id="sec"></span></td>
+            </tr>
+            <tr>
+              <td>day</td>
+              <td></td>
+              <td>hour</td>
+              <td></td> 
+              <td>min</td>
+              <td></td>
+              <td>sec</td>
+            </tr>
+          </table>
+        </div>
+      </div>
         </body>
         </html>
 </html>

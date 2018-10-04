@@ -1,0 +1,23 @@
+.header
+{
+    font-size: 50pt;
+    font-family: Helvetica, sans-serif;
+    color: #50313b;
+}
+
+.timer
+{
+    font-size: 50pt;
+    font-family: Helvetica, sans-serif;
+    color: #50313b;
+}
+
+td
+{
+    text-align: center;
+}
+
+body
+{
+    background-image: url(background.jpg);
+}
